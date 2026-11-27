@@ -1,0 +1,9 @@
+{
+  "id": "20261127-084051-847fb7",
+  "name": "02-deep-callchain-bug-hunt",
+  "project_root": "/home/therealshek/.t3/userdata/antigravity-tmp/ac0a3dfd6ddd/run-Q4wpsj/enma-eval-2051107412/workspace",
+  "model": "qwen35-4b-32k",
+  "tainted": false,
+  "created_at": "2026-11-27T08:40:51.781299661Z",
+  "updated_at": "2026-11-27T08:40:51.781300214Z"
+}

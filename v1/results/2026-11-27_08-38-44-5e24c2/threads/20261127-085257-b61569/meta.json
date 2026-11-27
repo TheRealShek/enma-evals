@@ -1,0 +1,9 @@
+{
+  "id": "20261127-085257-b61569",
+  "name": "10-race-condition-worker-fix",
+  "project_root": "/home/therealshek/.t3/userdata/antigravity-tmp/ac0a3dfd6ddd/run-Q4wpsj/enma-eval-83511355/workspace",
+  "model": "qwen35-4b-32k",
+  "tainted": false,
+  "created_at": "2026-11-27T08:52:57.138011829Z",
+  "updated_at": "2026-11-27T08:52:57.138012279Z"
+}
