@@ -1,6 +1,6 @@
 # Enma Evals
 
-Benchmark suite and run results for [enma-harness](../enma-harness/README.md). Tasks live in `tasks/` and run outputs are stored in `results/YYYY-MM-DD_HH-MM-SS-<hex>/` so runs sort chronologically by directory name.
+Benchmark suite and run results for [enma-harness](../enma-harness/README.md). Tasks live in `v1/tasks/` and run outputs are stored in `v1/results/YYYY-MM-DD_HH-MM-SS-<hex>/` so runs sort chronologically by directory name.
 
 ## Running from `enma-harness`
 
@@ -9,7 +9,7 @@ cd ../enma-harness
 go run . eval
 ```
 
-By default, `enma-harness` reads tasks from `../enma-evals/tasks` and writes timestamped results (`summary.json` + `threads/<id>/events.jsonl`) to `../enma-evals/results`.
+By default, `enma-harness` reads tasks from `../enma-evals/v1/tasks` and writes timestamped results (`summary.json` + `threads/<id>/events.jsonl`) to `../enma-evals/v1/results`.
 
 To compare two runs:
 
