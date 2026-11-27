@@ -1,0 +1,7 @@
+{
+  "prompt": "Fix the data race in worker/worker.go so `go test -race ./...` passes.",
+  "check": ["go", "test", "-race", "./..."],
+  "max_turns": 8,
+  "timeout_sec": 90,
+  "approval_policy": "deny_all"
+}

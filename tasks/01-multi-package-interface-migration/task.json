@@ -1,0 +1,7 @@
+{
+  "prompt": "Change Store.Get(key string) string to Store.Get(key string) (string, bool) in store/, and update all implementations, callers, and test mocks across store/, memory/, service/, and app/ so `go test ./...` passes.",
+  "check": ["go", "test", "./..."],
+  "max_turns": 12,
+  "timeout_sec": 90,
+  "approval_policy": "deny_all"
+}

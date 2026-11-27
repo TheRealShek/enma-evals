@@ -1,0 +1,7 @@
+{
+  "prompt": "Find the target Go file in shard/ (past the directory listing page boundary) and fix the key mismatch against the expected constant near the bottom of keys.go so `go test ./...` passes.",
+  "check": ["go", "test", "./..."],
+  "max_turns": 12,
+  "timeout_sec": 90,
+  "approval_policy": "deny_all"
+}

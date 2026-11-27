@@ -1,0 +1,7 @@
+{
+  "prompt": "Create internal/limiter/limiter.go with `type Counter struct` and `func New(limit int) *Counter` + `(c *Counter) Allow() bool` (allowing up to `limit` calls, then false), and wire it into server/router.go so `go test ./...` passes.",
+  "check": ["go", "test", "./..."],
+  "max_turns": 10,
+  "timeout_sec": 90,
+  "approval_policy": "deny_all"
+}

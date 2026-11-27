@@ -1,0 +1,7 @@
+{
+  "prompt": "Fix all compile and test failures across core/, auth/, billing/, and app/ so `go test ./...` passes.",
+  "check": ["go", "test", "./..."],
+  "max_turns": 10,
+  "timeout_sec": 90,
+  "approval_policy": "deny_all"
+}

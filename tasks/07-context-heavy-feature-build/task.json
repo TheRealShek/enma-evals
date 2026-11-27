@@ -1,0 +1,7 @@
+{
+  "prompt": "Read SPEC.md and the logs/ folder to verify the requirements, then implement NormalizeScore in score/score.go so `go test ./...` passes.",
+  "check": ["go", "test", "./..."],
+  "max_turns": 10,
+  "timeout_sec": 90,
+  "approval_policy": "deny_all"
+}

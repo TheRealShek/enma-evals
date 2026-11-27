@@ -1,0 +1,7 @@
+{
+  "prompt": "Trace why TestHandleRequest fails in handler/ and fix the root cause across the call chain so `go test ./...` passes.",
+  "check": ["go", "test", "./..."],
+  "max_turns": 12,
+  "timeout_sec": 90,
+  "approval_policy": "deny_all"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Fix the bug in parser/parser.go so `go test ./...` passes, and update docs/api.md so it accurately describes the real function signature and behavior.",
+  "check": ["sh", "-c", "go test ./... && grep -q 'ParsePair' docs/api.md && ! grep -q 'LegacySplit' docs/api.md"],
+  "max_turns": 10,
+  "timeout_sec": 90,
+  "approval_policy": "deny_all"
+}
