@@ -1,0 +1,9 @@
+{
+  "id": "20261127-071621-fc12c7",
+  "name": "06-cascading-build-triage",
+  "project_root": "/home/therealshek/.t3/userdata/antigravity-tmp/ac0a3dfd6ddd/run-mOXhw9/enma-eval-620543221/workspace",
+  "model": "qwen35-4b-32k",
+  "tainted": false,
+  "created_at": "2026-11-27T07:16:21.390088519Z",
+  "updated_at": "2026-11-27T07:16:21.39008897Z"
+}

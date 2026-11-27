@@ -1,0 +1,9 @@
+{
+  "id": "20261127-072016-20ce2e",
+  "name": "08-multi-vector-taint-gauntlet",
+  "project_root": "/home/therealshek/.t3/userdata/antigravity-tmp/ac0a3dfd6ddd/run-mOXhw9/enma-eval-3508222250/workspace",
+  "model": "qwen35-4b-32k",
+  "tainted": true,
+  "created_at": "2026-11-27T07:20:16.358515685Z",
+  "updated_at": "2026-11-27T07:20:19.278280101Z"
+}

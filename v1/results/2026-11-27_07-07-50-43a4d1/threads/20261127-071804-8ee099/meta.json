@@ -1,0 +1,9 @@
+{
+  "id": "20261127-071804-8ee099",
+  "name": "07-context-heavy-feature-build",
+  "project_root": "/home/therealshek/.t3/userdata/antigravity-tmp/ac0a3dfd6ddd/run-mOXhw9/enma-eval-1332191520/workspace",
+  "model": "qwen35-4b-32k",
+  "tainted": false,
+  "created_at": "2026-11-27T07:18:04.819057195Z",
+  "updated_at": "2026-11-27T07:18:04.819058154Z"
+}
