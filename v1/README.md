@@ -1,4 +1,8 @@
-# v1 Eval Results
+# v1 Eval Suite
+
+Fixed 10-task benchmark (`v1/tasks/`) used to measure [enma-harness](https://github.com/TheRealShek/enma-harness) changes on a single model (`qwen35-4b-32k`). The task set stays constant across runs while the harness evolves.
+
+## Results (`v1/results/`)
 
 | Run | Pass rate | Notes |
 | :--- | :--- | :--- |
